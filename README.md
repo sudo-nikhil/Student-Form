@@ -27,5 +27,9 @@ A responsive student registration form built using **HTML**, **CSS**, and **Java
 ## 📁 Folder Structure
 
 ├── index.html
+
+
 ├── style.css
+
+
 └── script.js
