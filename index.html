@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="student-form">
+        <form class="form">
+            <h1 class="heading">STUDENT FORM</h1>
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name"><br>
+
+            <label for="age">Age</label><br>
+            <input type="number" id="age"><br>
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <label for="course">Course</label><br>
+            <select id="course">
+                <option value="">--Select--</option>
+                <option>Python</option>
+                <option>Javascript</option>
+                <option>Java</option>
+                <option>C++</option>
+            </select><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br>
+
+            <button id="save" type="button">Submit</button>
+        </form>
+
+        <table border="1" id="table" class="info-table hidden">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Course</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

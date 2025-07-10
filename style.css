@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Gabarito", sans-serif;
+    background-color: antiquewhite;
+}
+
+.student-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.form {
+    background-color: #23323C;
+    width: 40%;
+    height: fit-content;
+    padding: 50px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+input,
+select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Gabarito", sans-serif;
+    font-size: 15px;
+}
+
+#name,
+#age,
+#course,
+#email {
+    width: 100%;
+    padding: 10px;
+}
+
+#save {
+    width: 100%;
+    background-color: #2CA991;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.heading {
+    text-align: center;
+    color: #2CA991;
+    margin: 10px;
+}
+
+
+.info-table {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #23323C;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.info-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.info-table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2CA991;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+tr {
+    border: black 4px;
+}
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 391px) {
+    .form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    input,
+    select {
+        font-size: 13px;
+        padding: 8px;
+
+    }
+
+    #save {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .info-table {
+        width: 100%;
+        font-size: 12px;
+        padding: 15px;
+        overflow-x: auto;
+    }
+
+    .info-table th,
+    .info-table td {
+        padding: 6px;
+    }
+
+    #name,
+    #age,
+    #course,
+    #email {
+        width: 95%;
+    }
+
+    .student-form{
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 391px) and (max-width: 850px) {
+    .form {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    input,
+    select {
+        font-size: 14px;
+        padding: 9px;
+    }
+
+    #save {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .info-table {
+        width: 100%;
+        font-size: 13px;
+        padding: 20px;
+        overflow-x: auto;
+    }
+}
+
+
+
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+    .form {
+        width: 70%;
+        padding: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .info-table {
+        font-size: 15px;
+        padding: 25px;
+        overflow-x: auto;
+    }
+}
