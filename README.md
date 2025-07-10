@@ -18,7 +18,9 @@ A responsive student registration form built using **HTML**, **CSS**, and **Java
 ## 💡 Technologies Used
 
 - HTML5
+  
 - CSS3 (Flexbox/Media Queries)
+  
 - JavaScript (DOM Manipulation)
 
 
